@@ -1,8 +1,5 @@
 # Pre-work - Tips
 
-> HINT: Please
-> - include this README.md in your project and fill out the information. 
-> - remove all the HINT blocks in this file.
 
 Tips is a tip calculator application for iOS.
 
@@ -12,7 +9,6 @@ Time spent: 4 hours spent in total
 
 ## User Stories
 
-> HINT: mark the items you completed with [x]
 
 The following **required** functionality is complete:
 
@@ -27,11 +23,10 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [ ] Lock screen in portrait mode.
 
 ## Video Walkthrough 
 
-> HINT: You can put a `walkthrough.gif` file in your project folder, add to git, and use the following syntax to embed it: 
  
 > `![Video Walkthrough](walkthrough.gif)` 
  
@@ -39,7 +34,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](path/to/your/gif)
+![Video Walkthrough](https://i.imgur.com/U3ab77L.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
