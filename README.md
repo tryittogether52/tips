@@ -23,7 +23,9 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] Lock screen in portrait mode.
+- [x] Lock screen in portrait mode.
+- [x] Prevent user enter characters that are not number
+- [x] Prevent user enter number that it's length is more than 7 characters
 
 ## Video Walkthrough 
 
