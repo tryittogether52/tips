@@ -14,6 +14,7 @@
 		6AEDABB21D1C3259001E968C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AEDABB01D1C3259001E968C /* LaunchScreen.storyboard */; };
 		6AEDABBD1D1C3259001E968C /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDABBC1D1C3259001E968C /* tipsTests.swift */; };
 		6AEDABC81D1C3259001E968C /* tipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDABC71D1C3259001E968C /* tipsUITests.swift */; };
+		6AEDABD61D1C428D001E968C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDABD51D1C428D001E968C /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6AEDABC31D1C3259001E968C /* tipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AEDABC71D1C3259001E968C /* tipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsUITests.swift; sourceTree = "<group>"; };
 		6AEDABC91D1C3259001E968C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AEDABD51D1C428D001E968C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		6AEDABA61D1C3259001E968C /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				6AEDABD51D1C428D001E968C /* SettingsViewController.swift */,
 				6AEDABA71D1C3259001E968C /* AppDelegate.swift */,
 				6AEDABA91D1C3259001E968C /* ViewController.swift */,
 				6AEDABAB1D1C3259001E968C /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				6AEDABAA1D1C3259001E968C /* ViewController.swift in Sources */,
 				6AEDABA81D1C3259001E968C /* AppDelegate.swift in Sources */,
+				6AEDABD61D1C428D001E968C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,9 +407,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.helloios.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -414,9 +420,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.helloios.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
