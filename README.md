@@ -27,10 +27,6 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough 
 
- 
-> `![Video Walkthrough](walkthrough.gif)` 
- 
-> You can also upload your image to imgur.com and embed the link here.
 
 Here's a walkthrough of implemented user stories:
 
